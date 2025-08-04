@@ -49,4 +49,11 @@ document.getElementById("navToggle").addEventListener("click", function() {
 });
 document.getElementById("sidebarToggle").addEventListener("click", function () {
   document.getElementById("sidebarContainer").classList.toggle("d-none");
+
 });
+
+function toggleSidebar() {
+    const sidebar = 
+document.getElementById("sidebar");
+    sidebar.classList.toggle("show");
+}
