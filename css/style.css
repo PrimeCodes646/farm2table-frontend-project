@@ -263,14 +263,16 @@ input[type="email"] {
 .sidebar {
   position: fixed;
   top: 0;
-  left: 0;
+  left: -250;
   height: 100%;
   width: 220px;
   background-color: #111;
   color: white;
-  padding-top: 20px;
   z-index: 1000;
-  transform: transform o.3s ease-in-out;
+  transform: left 0.3s ease-in-out;
+}
+.sidebar.show { 
+  left: 0;
 }
 
 .sidebar .logo {
@@ -353,6 +355,18 @@ body {
 .flex-grow-1{
   margin-left: 0;
 }
+.sidebar-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: gold;
+  border: none;
+  padding: 10px, 15px;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
 
 
 
