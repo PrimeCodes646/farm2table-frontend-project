@@ -269,7 +269,7 @@ input[type="email"] {
   background-color: #111;
   color: white;
   z-index: 1000;
-  transform: left 0.3s ease-in-out;
+  transform: right 0.3s ease-in-out;
 }
 .sidebar.show { 
   left: 0;
@@ -349,12 +349,9 @@ body {
   flex-direction: column;
 }
 .flex-grow-1{
-  margin-left: 220px; 
-
-}
-.flex-grow-1{
   margin-left: 0;
 }
+
 
 
 
