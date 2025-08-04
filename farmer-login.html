@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Farmer Login - AgroLink</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="bg-secondary">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black px-3">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/agrolink-logo.png" alt="AgroLink Logo" width="30" height="30" class="me-2">
+      <span class="fw-bold text-warning fs-4">Farm2Table</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="customer-login.html">Customer Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="farmer-login.html">Farmer Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="farmer-dashboard.html">Farmer Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="checkout.html">Checkout</a></li>
+        <li class="nav-item"><a class="nav-link" href="chatroom.html">Chatroom</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="card p-3 shadow w-100" style="max-width: 100;">
+    
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-sm-10">
+        <div class="card shadow p-5">
+
+          <h3 class="text-center mb-4 text-warning">Farmer Portal Login</h3>
+          <form>
+            <div class="mb-3">
+              <label for="farmerEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" maxlength="30" id="farmerEmail" placeholder="farmer@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="farmerPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" maxlength="8" id="farmerPassword" placeholder="Enter password" required>
+            </div>
+            <div class="form-check mb-3">
+              <input class="form-check-input" type="checkbox" id="farmerRemember">
+              <label class="form-check-label" for="farmerRemember">Remember Me</label>
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Login</button>
+          </form>
+          <p class="text-center mt-3 small">Need an account? <a href="#">Register as a farmer</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
